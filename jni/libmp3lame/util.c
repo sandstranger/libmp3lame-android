@@ -27,6 +27,7 @@
 #endif
 
 #include <float.h>
+#include <malloc.h>
 #include "lame.h"
 #include "machine.h"
 #include "encoder.h"
