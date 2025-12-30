@@ -33,6 +33,7 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/libmp3lame
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/libmp3lame
 
 LOCAL_MODULE := libmp3lame
+LOCAL_ARM_MODE := arm
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
